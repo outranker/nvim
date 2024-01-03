@@ -1,2 +1,3 @@
 require('justin');
-print('hello');
+vim.cmd[[ autocmd VimEnter * lua ColorMyPencils() ]]
+
